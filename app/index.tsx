@@ -1,11 +1,9 @@
 import { makeRedirectUri, useAuthRequest } from 'expo-auth-session'
 import { useRouter } from 'expo-router'
 import * as SecureStore from 'expo-secure-store'
-import { StatusBar } from 'expo-status-bar'
 import React, { useEffect } from 'react'
-import { ImageBackground, Text, TouchableOpacity, View } from 'react-native'
+import { Text, TouchableOpacity, View } from 'react-native'
 
-import bgBlur from '../src/assets/bg-blur.png'
 import LogoSpacetime from '../src/assets/logo-spacetime.svg'
 import { api } from '../src/lib/api'
 
